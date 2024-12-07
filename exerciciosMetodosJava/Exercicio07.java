@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Exercicio07 {
 
-	public static void buscarDataAtual() {
+	public static void obterDataAtual() {
 		Date dataAtual = new Date();
 		
 		String dataFormatada = new SimpleDateFormat("dd/MM/yyyy").format(dataAtual);
@@ -14,7 +14,7 @@ public class Exercicio07 {
 	}
 
 	public static void main(String[] args) {
-		buscarDataAtual();	
+		obterDataAtual();	
 	}
 
 }
